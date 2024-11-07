@@ -1,0 +1,30 @@
+archive_status:
+    0 = not archived
+    1 = archived
+
+stock_status:
+    1 = available
+    2 = low stock
+    3 = stock status
+
+expiration_status:
+    1 = good
+    2 = nearly expired
+    3 expired
+
+return (batch table):
+    0 = not in return list
+    1 = on the return list
+
+return_status (return_list table):
+    0 = not in the return list
+    1 = pending
+    2 = returned
+
+expirable:
+    0 = product does not have expiration date
+    1 = product have expiration date
+
+bundle:
+    (bundle == 0) = product does not have bundle quantity
+    (bundle > 0) = product has bundle quantity

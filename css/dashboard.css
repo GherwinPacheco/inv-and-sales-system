@@ -1,0 +1,25 @@
+/*.quick-info{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.quick-info:hover{
+    background-color: #D8EBFA;
+    transition: 0.3s;
+}*/
+.danger-item-list{
+    height: 80vh;
+    max-height: 80vh;
+    overflow-y: scroll;
+    font-size: 14px;
+    
+}
+.danger-item-list table td{
+    vertical-align: middle;
+}
+.chart-row{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

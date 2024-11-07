@@ -1,0 +1,79 @@
+:root {
+    /*blue*/
+    --primary-blue: #0A76D8;
+    --primary-blue-hover: #006dd3;
+    --btn-blue: #D8EBFA;
+    --btn-blue-text: #1b62b3;
+
+    /*green*/
+    --primary-green: #0ad852;
+    --primary-green-hover: #00d34d;
+    --btn-green: #d8fadf;
+    --btn-green-text: #158331;
+
+    --border: #d2dae2;
+
+    /*bootstrap colors*/
+    --primary: #0275d8;
+    --success: #5cb85c;
+    --info: #5bc0de;
+    --warning: #f0ad4e;
+    --danger: #d9534f;
+    --dark: #292b2c;
+    --white: #f7f7f7;
+}
+
+.filter-badge {
+    cursor: help;
+}
+
+a {
+    cursor: pointer;
+
+}
+
+.row-tooltip {
+    background-color: var(--btn-blue);
+    border-radius: 20px;
+    padding: 0px 7px;
+    cursor: pointer;
+}
+
+.checkbox-text {
+    font-size: .875em;
+}
+
+.form-check-input,
+.checkbox-text {
+    cursor: pointer;
+}
+
+.list-div {
+    overflow-y: scroll;
+    height: auto;
+    max-height: 350px;
+}
+
+.list-div li:hover {
+    background-color: #D8EBFA;
+    transition: 0.3s;
+}
+
+#archiveTable:focus {
+    outline: none;
+}
+
+.search-rec{
+    position: relative;
+    z-index: 1005;
+    
+}
+.search-rec .list-group{
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+input::-ms-reveal,
+    input::-ms-clear {
+    display: none;
+}

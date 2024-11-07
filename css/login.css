@@ -1,0 +1,10 @@
+body{
+    background-image: url("../assets/login-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#main-div{
+    height: 100vh;
+}

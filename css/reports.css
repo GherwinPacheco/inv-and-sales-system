@@ -1,0 +1,22 @@
+.salesTable {
+    height: auto;
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+.productRankTable tr td,
+.productRankTable tr th {
+    vertical-align: middle;
+}
+
+.inv-table-row{
+    height: auto;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.inv-pieGraph {
+    height: 1200px;
+    overflow-y: scroll;
+}
+

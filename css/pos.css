@@ -1,0 +1,52 @@
+.productListDiv {
+    overflow-y: scroll;
+    height: auto;
+    height: 50vh;
+}
+
+
+.selected-row td {
+    vertical-align: middle;
+}
+
+.selectedTableDiv {
+    height: 50vh;
+    overflow-y: auto;
+}
+
+.modal-backdrop {
+    z-index: 1020 !important;
+}
+
+.row-tooltip {
+    background-color: var(--btn-blue);
+    border-radius: 20px;
+    padding: 0px 7px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #D8EBFA;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.quantityType {
+    font-size: 12px;
+}
+
+.transactionDetails{
+    background-color: var(--btn-green);
+}
+
+.quantity{
+    font-size: 14px;
+    padding-left: 3px;
+}
+
+input::-ms-reveal,
+    input::-ms-clear {
+    display: none;
+}

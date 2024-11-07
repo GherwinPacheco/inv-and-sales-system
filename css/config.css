@@ -1,0 +1,22 @@
+.table-image{
+    width: 50px;
+    height: 50px;
+}
+
+.accounts-table tbody tr td{
+    vertical-align: middle;
+}
+
+.table-section{
+    overflow-x: auto;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.upperTables{
+    height: 400px; 
+    overflow-y: auto;
+    background-color: white;
+}

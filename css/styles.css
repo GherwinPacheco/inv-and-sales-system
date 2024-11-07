@@ -1,0 +1,389 @@
+@import url('./font-inter.css');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+:root {
+    /*blue*/
+    --primary-blue: #0A76D8;
+    --primary-blue-hover: #006dd3;
+    --btn-blue: #D8EBFA;
+    --btn-blue-text: #1b62b3;
+
+    /*green*/
+    --primary-green: #0ad852;
+    --primary-green-hover: #00d34d;
+    --btn-green: #d8fadf;
+    --btn-green-text: #158331;
+
+    /*yellow*/
+    --primary-yellow: #FEF001;
+    --primary-yellow-hover: #cfd300;
+    --btn-yellow: #fffcaf;
+    --btn-yellow-text: #837c15;
+
+    /*red*/
+    --primary-red: #d80a0a;
+    --primary-red-hover: #d30000;
+    --btn-red: #fad8d8;
+    --btn-red-text: #831515;
+
+    /*gray*/
+    --primary-gray: #808080;
+    --primary-gray-hover: rgb(151, 151, 151);
+    --btn-gray: #e1e1e1;
+    --btn-gray-text: #505050;
+
+    /*status*/
+    --e-status1: #01fe27;
+    --e-status2: #38fe01;
+    --e-status3: #6ffe01;
+    --e-status4: #a1fe01;
+    --e-status5: #d4fe01;
+    --e-status6: #FEF001;
+    --e-status7: #FD9A01;
+    --e-status8: #FD6104;
+    --e-status9: #FF2C05;
+    --e-status10: #F00505;
+
+    --s-status1: #999999;
+    --s-status2: #777777;
+    --s-status3: #666666;
+    --s-status4: #555555;
+
+
+    --border: #d2dae2;
+
+    /*bootstrap colors*/
+    --primary: #0275d8;
+    --success: #5cb85c;
+    --info: #5bc0de;
+    --warning: #f0ad4e;
+    --danger: #d9534f;
+    --dark: #292b2c;
+    --white: #f7f7f7;
+    --secondary: #6C757D;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    /*display: none;*/
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #d2dae2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0275d8;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    
+}
+
+*{
+    font-size: 18px;
+}
+
+
+.main-div {
+    margin-left: 75px;
+    /*padding: 30px;*/
+    z-index: 999;
+    transition: 0.3s;
+    position: relative;
+}
+
+.bordered {
+    border: 2px solid var(--border)
+}
+
+.bordered-x {
+    border-left: 2px solid var(--border);
+    border-right: 2px solid var(--border)
+}
+
+.bordered-y {
+    border-top: 2px solid var(--border);
+    border-bottom: 2px solid var(--border)
+}
+
+.bg-blue {
+    background-color: var(--btn-blue);
+    color: var(--btn-blue-text);
+}
+
+.bg-green {
+    background-color: var(--btn-green);
+    color: var(--btn-green-text);
+}
+
+.bg-yellow {
+    background-color: var(--btn-yellow);
+    color: var(--btn-yelllow-text);
+}
+
+.bg-red {
+    background-color: var(--btn-red);
+    color: var(--btn-red-text);
+}
+
+.bg-gray {
+    background-color: var(--btn-gray);
+    color: var(--btn-gray-text);
+}
+
+
+.btn-blue {
+    background-color: var(--btn-blue);
+    color: var(--btn-blue-text);
+}
+
+.btn-blue:hover {
+    background-color: var(--primary-blue);
+    color: white;
+}
+
+.btn-green {
+    background-color: var(--btn-green);
+    color: var(--btn-green-text);
+}
+
+.btn-green:hover {
+    background-color: var(--primary-green);
+    color: white;
+}
+
+.btn-yellow {
+    background-color: var(--btn-yellow);
+    color: var(--btn-yelllow-text);
+}
+
+.btn-yellow:hover {
+    background-color: var(--primary-yellow);
+    color: black;
+}
+
+.btn-red {
+    background-color: var(--btn-red);
+    color: var(--btn-red-text);
+}
+
+.btn-red:hover {
+    background-color: var(--primary-red);
+    color: white;
+}
+
+.btn-gray {
+    background-color: var(--btn-gray);
+    color: var(--btn-gray-text);
+}
+
+.btn-gray:hover {
+    background-color: var(--primary-gray);
+    color: white;
+}
+
+.form-control:hover {
+    transition: 0.3s;
+    border: 1px solid var(--primary-blue);
+}
+
+.form-control:focus {
+    outline-style: none;
+    box-shadow: none;
+    border: 2px solid var(--primary-blue);
+}
+
+.search-bar {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.search-btn {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: var(--primary);
+    color: white;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+
+/*sidebar.php*/
+.logo {
+    height: 60px;
+    margin-top: -20px;
+    margin-left: -22px;
+    margin-right: 10px;
+}
+
+.sidebar {
+    z-index: 1000;
+    position: fixed;
+    height: 100%;
+    width: 75px;
+    margin-left: 0px;
+    padding: 20px;
+    transition: 0.3s;
+    overflow: hidden;
+    /*border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;*/
+    background-color: rgb(30, 30, 30);
+}
+
+.sidebar:hover {
+    width: 280px;
+}
+
+.navbar-nav {
+    width: 200px;
+    padding: 6px;
+}
+
+.nav-item {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.nav-link {
+    width: 220px;
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--primary-green-hover);
+    transition: 0.5s;
+}
+
+.active-nav {
+    color: var(--primary-green);
+}
+
+.nav-icon {
+    margin-right: 40px;
+}
+
+.nav-collapse-icon {
+    float: right;
+    padding: 8px 0px;
+}
+
+.nav-collapse {
+    width: 240px;
+}
+
+.nav-collapse .nav-link {
+    margin-left: 60px;
+    width: 240px;
+    margin-top: 10px;
+}
+
+/*sidebar.php*/
+
+
+
+/*account.php*/
+.profile-pic {
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+.profile-pic:hover {
+    border: 2px solid var(--primary);
+    border-radius: 25px;
+}
+
+/*account.php*/
+
+
+/*tables*/
+
+thead th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hidden-row {
+    background-color: #fbfbfb;
+}
+
+.hidden-table,
+.hidden-table thead,
+.hidden-table tbody,
+.hidden-table th,
+.hidden-table tr {
+    border-top: none;
+    text-align: center;
+}
+
+.hidden-table {
+    width: 95%;
+    margin: 10px;
+}
+
+
+.hidden-row,
+.hidden-row .hidden-col {
+    padding: 0;
+    margin: 0;
+}
+
+.indent-logo {
+    color: rgb(180, 180, 180);
+    padding: 30px;
+}
+
+.hidden-table th,
+.hidden-table td {
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.main-row th,
+.main-row td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
+.empty-row td {
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body{
+    background-color: #fcfcfc;
+}
+
+table thead{
+    background-color: #1d82b8; 
+    color: white;
+}
+
+
+.hidden-table thead{
+    background-color: white; 
+    color: black;
+}
+
+.dataImg{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
