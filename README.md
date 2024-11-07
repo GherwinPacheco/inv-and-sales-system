@@ -22,7 +22,7 @@ Instructions on how to install and set up your project:
 6. Create a new database named `samson_pharmacy` in phpMyAdmin.
 7. Import the database file located in the `database` folder of the repository.
 8. Move the extracted repository folder to the `htdocs` folder in your XAMPP installation path.
-9. Open the browser and navigate to `localhost/inv-and-sales-system`.
+9. Open the browser and navigate to `localhost/samson_pharmacy`.
 
 ## Note
 Apache and MySQL Server on XAMPP must always be activated to access the system.
